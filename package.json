@@ -1,0 +1,27 @@
+{
+  "name": "@gabtec/backstage-action-var-set",
+  "version": "1.0.0",
+  "description": "A custom action for backstage template engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Martins",
+  "license": "MIT",
+  "dependencies": {
+    "@backstage/plugin-scaffolder-node": "^0.2.10"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "github.com/gabtec/backstage-custom-action-var-set"
+  },
+  "keywords": [
+    "backstage",
+    "template",
+    "actions",
+    "custom",
+    "vars",
+    "set"
+  ]
+}
