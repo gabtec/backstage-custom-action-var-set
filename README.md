@@ -36,11 +36,14 @@ yarn --cwd packages/backend add @backstage/integration
 Register the new custom action
 
 ```js
-import { createSetLocalVarsAction } from "@gabtec/backstage-action-var-set";
 import {
-  DefaultGithubCredentialsProvider,
+  createRouter,
+  createBuiltinActions, // <--------------- add this
+} from "@backstage/plugin-scaffolder-backend";
+import {
   ScmIntegrations, // <<------------------- add this
 } from "@backstage/integration";
+import { createSetLocalVarsAction } from "@gabtec/backstage-action-var-set";
 
 // (...)
 
