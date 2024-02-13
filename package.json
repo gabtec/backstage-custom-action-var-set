@@ -1,9 +1,9 @@
 {
   "name": "@gabtec/backstage-action-var-set",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "A custom action for backstage template engine",
   "type": "module",
-  "main": "index.ts",
+  "main": "index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
