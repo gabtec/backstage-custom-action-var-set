@@ -27,7 +27,7 @@ steps:
 
 ```sh
 # install it as a dependecie
-yarn --cwd packages/backend add @gabtec/backstage-action-var-set
+yarn --cwd packages/backend add @gabtec/backstage-action-var-set@1.0.2
 yarn --cwd packages/backend add @backstage/integration
 ```
 
