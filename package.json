@@ -1,6 +1,6 @@
 {
   "name": "@gabtec/backstage-action-var-set",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A custom action for backstage template engine",
   "type": "module",
   "main": "index.ts",
